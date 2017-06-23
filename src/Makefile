@@ -1,0 +1,4 @@
+main: main.c
+	gcc -Wall main.c -o main
+rm:
+	rm -rf main
