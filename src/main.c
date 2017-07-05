@@ -6,7 +6,7 @@ char getChar(char c){
     switch(c){
     case 'l':
         return '1';
-    case 'o':
+    case 'o': case 'O':
         return '0';
     case ' ':
         return '@';
@@ -14,8 +14,12 @@ char getChar(char c){
         return '9';
     case 'e':
         return '3';
-    case 'i':
+    case 'i': case 'j':
         return '!';
+    case 's': case 'S':
+        return '5';
+    case 'a': case 'A':
+        return '4';
     default:
         return c;
     }
